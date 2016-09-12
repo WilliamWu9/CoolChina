@@ -39,6 +39,7 @@ public class CoolWeatherDB {
     private CoolWeatherDB(Context context) {
         CoolWeatherOpenHelper dbHelper = new CoolWeatherOpenHelper(context,
                 DB_NAME, null, VERSION);
+        //dbHelper主要用来初始化建表，不需要全局。db这个可操作的数据库经常使用，需要全局
         db = dbHelper.getWritableDatabase();
     }
 

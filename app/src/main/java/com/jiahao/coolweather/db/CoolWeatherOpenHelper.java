@@ -7,7 +7,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 /**
  * Created by jhWu on 2016/9/12.
  *
- * 数据库 底层操作 。用于构建建表语句，以及执行建表操作
+ * 数据库 底层操作 。
+ * 用于构建建表语句，以及执行建表操作。
  */
 public class CoolWeatherOpenHelper extends SQLiteOpenHelper {
     
